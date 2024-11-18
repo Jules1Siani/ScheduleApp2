@@ -1,0 +1,17 @@
+.badge-low {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+.badge-medium {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+}
+
+.badge-high {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}

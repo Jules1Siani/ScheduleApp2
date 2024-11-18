@@ -1,0 +1,8 @@
+<h2>Task List</h2>
+<div *ngFor="let task of tasks" class="task-item">
+  <h3>{{ task.title }}</h3>
+  <app-priority-badge [priority]="task.priority"></app-priority-badge>
+  <p>{{ task.description }}</p>
+  <p><strong>Due Date:</strong> {{ task.dueDate | date }}</p>
+  <button (click)="deleteTask(task.id)">Delete</button>
+</div>
